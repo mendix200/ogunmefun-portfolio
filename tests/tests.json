@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Explore both project case studies",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "project navigation",
+      "case study expansion and collapse",
+      "live project links"
+    ],
+    "description": "Read both real projects and return to their compact cards.",
+    "steps": [
+      "Select Projects in navigation.",
+      "Open Read full case study on DrinkStore NG and read the business problem and contribution.",
+      "Close it, open the MechanicSolution case study, and inspect both live project link destinations."
+    ],
+    "expected": "Each project reveals its own detailed case study and collapses correctly; links point to drinkstore-ng-zww9ys.v2.appdeploy.ai and autocare-pro-zz4flw.v2.appdeploy.ai."
+  },
+  {
+    "name": "Read qualifications on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "responsive navigation",
+      "skills",
+      "profile",
+      "experience",
+      "education",
+      "back to top"
+    ],
+    "description": "Navigate and read verified professional information on a phone.",
+    "steps": [
+      "Use Skills and About navigation links.",
+      "Use Experience and scroll through education and certifications.",
+      "Use Back to top."
+    ],
+    "expected": "Sections are readable without horizontal scrolling, education includes B.Sc. Economics Education and certifications, and Back to top returns to the introduction."
+  },
+  {
+    "name": "Access application documents and contact",
+    "viewport": "desktop",
+    "covers": [
+      "CV download",
+      "CV unavailable message",
+      "contact email",
+      "GitHub link",
+      "print portfolio"
+    ],
+    "description": "Check document actions and contact destinations.",
+    "steps": [
+      "Click Download CV. If the resource has been uploaded verify a PDF downloads; otherwise verify the visible message offers niyiola48@gmail.com.",
+      "Navigate to Contact and inspect the email and GitHub links.",
+      "Click Print / save portfolio as PDF; cancel the browser dialog if one opens."
+    ],
+    "expected": "CV action gives either a PDF or an explicit unavailable message, contact links target niyiola48@gmail.com and github.com/mendix200, and print action is available."
+  }
+]
